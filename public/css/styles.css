@@ -1,0 +1,86 @@
+.splash {
+    height: 100vh;
+    position: relative;
+}
+
+.side-nav {
+    position: fixed;
+    top: 20ch;
+}
+
+.splash-image-div {
+    /* background-image: url("https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=415&q=80");  */
+    background-image: url("https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=415&q=80");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    /* z-index: 1; */
+    opacity: 0.4;
+}
+
+.c-btn {
+    height: 6ch;
+    width: 6ch;
+    border-radius: 50%;
+    background-color: rgb(208, 255, 255);
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #666666;
+}
+
+.c-btn span {
+    display: none;
+}
+
+.c-btn:hover {
+    width: auto;
+    border-radius: 2rem;
+    padding: 0 1rem;
+    background-color: rgb(24, 181, 181);
+    color: #fff;
+}
+
+.c-btn:hover span {
+    display: block;
+}
+
+.d-block {
+    height: 600px;
+}
+.head {
+    color: red;
+    text-align: center;
+    margin-top: 40px;
+}
+.img {
+    height: 400px;
+    width: 500px;
+}
+.icons {
+    font-size: xx-large;
+}
+
+/* contact page css */
+
+.contact {
+    color: red;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+/* close contact page */
+
+.infor {
+    color: red;
+}
